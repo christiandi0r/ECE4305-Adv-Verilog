@@ -25,9 +25,9 @@ ECE_4305_Adv_Verilog/
 │   │   ├── mux_2x1/
 │   │   └── mux_4x1/
 │   │
-│   └── decoder/
-│       ├── decoder_2x4/
-│       └── decoder_3x8/
+│   └── d_flip_flop/
+│       ├── d_ff/
+│       └── d_ff_reset/
 │
 ├── labs/
 │   ├── lab1/
