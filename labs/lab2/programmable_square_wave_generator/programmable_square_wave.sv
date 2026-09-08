@@ -39,4 +39,12 @@ square_wave_state State_Register
     .state_out(state_out)
 );
 
+ila_0 ILA
+(
+    .clk(clk),
+    .probe0(m),
+    .probe1(n),
+    .probe2(square_wave_out)
+);
+
 endmodule
