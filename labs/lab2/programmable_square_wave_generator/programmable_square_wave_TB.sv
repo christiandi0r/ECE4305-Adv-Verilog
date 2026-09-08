@@ -11,7 +11,7 @@ logic clk, reset, square_wave_out;
 
 programmable_square_wave uut(.*);
 
-// clock (period = 10 ns)
+// Clock (period = 10 ns)
 always
 begin
     clk = 1'b0;
@@ -20,7 +20,7 @@ begin
     #(T / 2);
 end
 
-// initial reset
+// Initial reset
 initial
 begin
     reset = 1'b1;
@@ -28,6 +28,8 @@ begin
     reset = 1'b0;
 end
 
+// Test stimulus: m = 2, n = 3
+// Expected output: HIGH for 200 ns, LOW for 300 ns
 initial
 begin
     m = 4'b0010;
