@@ -1,4 +1,3 @@
-
 module flight_mountain_core
 (
     input logic clk, reset,
