@@ -1,4 +1,3 @@
-
 module flight_hud_core
 (
     input logic clk, reset,
