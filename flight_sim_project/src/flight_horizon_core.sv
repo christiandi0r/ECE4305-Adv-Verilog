@@ -1,4 +1,3 @@
-
 module flight_horizon_core
 (
     input logic clk, reset,
