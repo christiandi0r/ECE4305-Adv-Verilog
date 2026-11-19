@@ -1,4 +1,3 @@
-
 `include "chu_io_map.svh"
 
 module video_sys_daisy
